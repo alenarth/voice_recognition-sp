@@ -16,10 +16,4 @@ def convertVoz():
         except sr.RequestError as e:
             print("Could not request results from Google Web Speech service; {0}".format(e))
 
-if key is None:
-        key = "AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
-    return RequestBuilder(
-        key=key, language=language, filter_level=filter_level
-    
-
 convertVoz()
